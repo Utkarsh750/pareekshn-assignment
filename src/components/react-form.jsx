@@ -22,7 +22,7 @@ const MyForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-slate-300 shadow-lg rounded-lg">
+    <div className="max-w-lg mx-auto p-6 bg-slate-200 shadow-lg rounded-lg">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">React Form</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         <div>
